@@ -23,6 +23,11 @@ header{
 margin-bottom: 63px;
 text-align: center;
 }
+section{
+    display: flex; 
+      flex-direction: row; 
+}
+
 
 .card{
     padding: 32px 23px;
@@ -49,7 +54,8 @@ text-align: center;
 
 .card h2 span{
 color: #e1e1e6;
-font-size: 16px;
+font-size: 24px;
+font-weight: 400;
 text-transform: uppercase;
 
 }
@@ -76,12 +82,12 @@ div p{
 }
 .left{
     width: 150px;
-    text-align: center;
+    text-align: left;
     align-items: center;
    
 }
 .right{
-    text-align: center;
+    text-align: right;
     width: 165px;
     align-items: center;
     justify-content: space-between;
@@ -134,11 +140,43 @@ br{
 
 
 @media(min-width:1366px){
+   .app{
+  margin: 52px auto;
+  width: fit-content;
+   }
   
-            
+   header{
+margin: 0;
+   }
+
+    section{
+        display: flex; 
+          flex-direction: row; 
+          gap: 32px;
+          padding-left: 50px;
+          padding-top: 32px;
+          /* position: absolute; */
+          
+    }
      
-              
+    div p,
+    .card ul li strong
+    {
+        font-weight: 700;
+        font-size: 24px;
        
-         
-        
+    
+    }
+     .left{
+        width: 105px;
+      
+       
+    }
+    .right{
+
+        width: 105px;
+        text-align: center;
+       
+    }
+    
 }
