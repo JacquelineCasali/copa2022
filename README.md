@@ -10,3 +10,7 @@ JavaScript
 
 Imagem do projeto
 
+<<<<<<< HEAD
+=======
+![image](https://user-images.githubusercontent.com/103325619/200090755-189c01f0-a0be-48af-bd35-cf3fc27706c9.png)
+>>>>>>> 391b2ce268133b5ff89e67694542fcdede8cbe5c
