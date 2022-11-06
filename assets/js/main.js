@@ -7,7 +7,7 @@ return `
   <p class='left'>${jogo1}</p>
   <strong>${hora}</strong>
   <p class='right'>${jogo2}</p>
-  <img src="./assets//images/${jogo2}.svg" alt="Bandeira do ${jogo2}">  
+  <img src="./assets/images/${jogo2}.svg" alt="Bandeira do ${jogo2}">  
   </li>     `
 }
 
