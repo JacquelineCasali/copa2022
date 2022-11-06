@@ -24,6 +24,7 @@ margin-bottom: 63px;
 text-align: center;
 }
 
+
 .card{
     padding: 32px 23px;
     text-align: center;
@@ -123,21 +124,36 @@ div p{
         line-height: 125%;
          color:#e1e1e6;
     }
+
+    .card ul li strong:hover,
+    .card ul li img:hover,
+    .card ul li p:hover{
+transform: scale(1.1);
+    }
+    .card ul li strong:hover,
+    .card ul li img:hover,
+    .card ul li p:hover{
+transition:transform 0.3s;
+    }
+
+
 .fases{
       display: flex;
-     /* gap:16px; */
+   
      justify-content: center;
      align-items: center;
      padding: 8px 16px;
-     /* border: 1px solid #746615; */
+  
      border-radius: 6px;
     width: fit-content;
     margin-inline: auto;
     margin-bottom: 15px;
     color:#f7dd43;
     font-size: 20px;
-    /* line-height: 125%; */
+   
 }
+
+ 
 
 @media(min-width:460px){
   
@@ -171,97 +187,64 @@ div p{
     
  }
 
-    /* @media(min-width:760px){
-      
-       
-        header{
-     margin-bottom: 20px;
-        }
-     
-       
-         div p,
-         .card ul li strong
-         {
-            font-weight: 900;
-         font-size: 26px;
-            
-         
-         }
-         strong{
-            margin-left: 10px;
-         }
-          .left,
-          .right{
-            width: 105px;
-                 
-         }
-         
-     } */
-
      @media(min-width:760px){
-        /* .app{
-       margin: 52px auto;
-       width: fit-content;
-        } */
-       
+          
         header{
      margin: 0;
         }
      
          .cards{
              display: flex; 
-               /* flex-direction: row;  */
-               gap: 25px;
+             flex-direction: row;
+              gap: 25px;
                padding-left: 50px;
                padding-top: 32px;
                flex-wrap: wrap; 
                justify-content: center;
+               /* width: 800px; */
                
          }
           
-     
-
          div p,
          .card ul li strong
          {
              font-weight: 700;
              font-size: 24px;
-            
+         
          
          }
           .left{
              width: 105px;
-           
-            
+                      
          }
          .right{
      
              width: 105px;
              text-align: center;
-            
+           
          }
-       
-     }
+            }
 
 
     @media(min-width:1366px){
-        /* .app{
-       margin: 52px auto;
-       width: fit-content;
-        } */
+  
        
         header{
      margin: 0;
+  
         }
      
          .cards{
              display: flex; 
                flex-direction: row; 
-               gap: 52px;
+               gap: 35px;
                padding-left: 50px;
                padding-top: 32px;
                flex-wrap: wrap; 
                justify-content: center;
+               width: 80%;
+               align-items: center;
+             
                
          }
           
@@ -285,24 +268,21 @@ h3{
          {
              font-weight: 700;
              font-size: 34px;
-            
-         
+                 
          }
           .left{
              width: 145px;
-           
-            
+             
          }
          .right{
      
              width: 145px;
              margin-right: 5px;
             
-            
          }
        strong{
         margin-left: 5px;
        }
      }
-
+ 
 
