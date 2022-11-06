@@ -26,7 +26,7 @@ function createCard(fase,date,day,games){
 
 document.querySelector('.cards').innerHTML=
 createCard("Fase de Grupos","20/11", 'Domingo',
-createGame("Grupo A","catar","13:00","Equador")
+createGame("Grupo A","Catar","13:00","Equador")
 )+
 
 createCard("Fase de Grupos","21/11", "Segunda-Feira",
