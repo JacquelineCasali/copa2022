@@ -2,13 +2,14 @@
 
 ## Tecnologias
 Esse projeto foi desenvolvido com as tecnologias 
+
 HTML 
 CSS
 JavaScript
 
 ## Projeto 
 
-O Calendário da copa copa do mundo 2022 
+O Calendário da copa do mundo 2022 
 
 ## Imagem do projeto
 
